@@ -3,57 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estado Financiero SEDE EL CHARCO</title>
+    <title>ATENCIÓN A LA PRIMERA INFANCIA CEPRODENT EL CHARCO</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <img src="ceprodent.png" alt="Logo" class="logo">
-    </header>
+    </header>        
     
     <nav class="sidebar">
-        <h2>Semestres</h2>
+        <h2>Contenido</h2>
         <ul class="menu">
             <li class="menu-item">
-                <a href="#" data-tab="ciclo-i" class="menu-link"> <i class="fas fa-book"></i>  Ciclo I</a>
+              <a href="#" data-tab="hogar" class="menu-link"> <i class="fas fa-home"></i> Hogar</a>
+           </li>
+            <li class="menu-item">
+                <a href="#" data-tab="acerca-de" class="menu-link"> <i class="fas fa-info-circle"></i> Institución</a>
             </li>
             <li class="menu-item">
-                <a href="#" data-tab="ciclo-ii" class="menu-link"> <i class="fas fa-book"></i> Ciclo II</a>
-            </li>
+                  <a href="#" data-tab="Cronograma" class="menu-link"> <i class="fas fa-calendar-alt"></i> Cronograma</a>
+              </li>
             <li class="menu-item">
-                <a href="#" data-tab="ciclo-iii" class="menu-link"> <i class="fas fa-book"></i> Ciclo III</a>
+                <div class="dropdown">
+                    <a href="#" class="menu-link dropdown-toggle"> <i class="fas fa-list-ul"></i> Semestres</a>
+                    <div class="dropdown-content">
+                        <a href="#" data-tab="ciclo-i" class="menu-link"> <i class="fas fa-book"></i> Ciclo I</a>
+                        <a href="#" data-tab="ciclo-ii" class="menu-link"> <i class="fas fa-book"></i> Ciclo II</a>
+                        <a href="#" data-tab="ciclo-iii" class="menu-link"> <i class="fas fa-book"></i> Ciclo III</a>
+                    </div>
+                </div>
+            </li>
+             <li class="menu-item">
+                <div class="dropdown">
+                    <a href="#" class="menu-link dropdown-toggle"> <i class="fas fa-file-alt"></i> Pensum</a>
+                    <div class="dropdown-content">
+                        <a href="#" data-tab="pensum-ciclo-i" class="menu-link"> <i class="fas fa-file-image"></i> Pensum Ciclo I</a>
+                        <a href="#" data-tab="pensum-ciclo-ii" class="menu-link"> <i class="fas fa-file-image"></i> Pensum Ciclo II</a>
+                        <a href="#" data-tab="pensum-ciclo-iii" class="menu-link"> <i class="fas fa-file-image"></i> Pensum Ciclo III</a>
+                    </div>
+                </div>
             </li>
         </ul>
     </nav>
     
     <main class="content">
       <section class="introduction">
-          <h1>Bienvenido al Estado Financiero <b style="color: rgb(65, 105, 225);">ATENCIÓN A LA PRIMERA INFANCIA</b> de la SEDE EL CHARCO</h1>
-          <p>En esta página, encontrarás los estados financieros del programa de Atención a la Primera Infancia ofrecido en nuestra institución. Explora los diferentes ciclos y descarga los archivos de tu interés.</p>
+         <h1 align="center">CEPRODENT SEDE EL CHARCO</h1>
+          <h3 align="center">Bienvenidos a la página web de <b style="color: rgb(65, 105, 225);">ATENCIÓN A LA PRIMERA INFANCIA.</b></h3>
+          <p class="justificado">En esta página, encontrarás los estados financieros, Cronograma Académico y Pensum del programa <b>ATENCIÓN A LA PRIMERA INFANCIA</b>, ofrecido en nuestra institución. Explora los diferentes ciclos y descarga los archivos de tu interés.
+</p>
       </section>
         <div class="tabs">
-            <div id="ciclo-i" class="tab-content active">
+          <div id="hogar" class="tab-content active">
+            <p>Selecciona alguna opción del menú</p>
+           </div>
+           <div class="image">
+               <img src="Charco.jpg" alt="Imagen El Charco">
+           </div>
+            <div id="acerca-de" class="tab-content">
+                <h2>Visión</h2>
+                <p class="justificado">Somos una institución de educación técnica encargada del desarrollo integral del educando, mediante el concurso del talento humano altamente calificado y procesos metodológicos que corresponden a las demandas actuales, cuyo propósito es potencializar las habilidades, destrezas y conocimientos relacionados con diferentes disciplinas, los avances tecnológicos y de salud con énfasis en el
+desarrollo comunitario. Con base en nuestros sistemas de valores, propende por la formación de líderes
+que sean agentes de cambio en su entorno, para coadyuvar el desarrollo social en las poblaciones más vulnerables de su área de influencia.</p>
+                <h2>Misión</h2>
+                <p class="justificado">Somos una institución de educación técnica encargada del desarrollo integral del educando, mediante el concurso del talento humano altamente calificado y procesos metodológicos que corresponden a las demandas actuales, cuyo propósito es potencializar las habilidades, destrezas y conocimientos relacionados con diferentes disciplinas, los avances tecnológicos y de salud con énfasis en el
+desarrollo comunitario. Con base en nuestros sistemas de valores, propende por la formación de líderes
+que sean agentes de cambio en su entorno, para coadyuvar el desarrollo social en las poblaciones más vulnerables de su área de influencia.</p>
+                <h2>Perfil Ocupacional</h2>
+                <ul>
+         <li class="justificado">Laborar en instituciones educativas y ayudar con los procesos educativos de la primera infancia desde la pedagogía y la didáctica, con un amplio sentido de responsabilidad social.</li>         
+    <li class="justificado">Pertenecer a equipos responsables de atender programas y proyectos de educación infantil.</li>
+    <li class="justificado">Desempeñarse como madres comunitarias.</li>
+    <li class="justificado">Laborar en los niveles de maternal, prejardin, jardín y transición.</li>
+      <li class="justificado">Atender niños y niñas favoreciendo los procesos de su desarrollo integral.</li>
+    </ul>
+            </div>
+             <div id="ciclo-i" class="tab-content">
                 <a href="imagen.png" class="download-link">
-                    <img src="imagen.png" alt="Estado Financiero Atención a la primera infancia" class="tab-image">
-                    <p> <i class="fas fa-download"></i> No se encuentra alojado el Ciclo I. Su situación está a paz y salvo.</p>
-                    <p class="description">Estado financiero detallado para atención a la primera infancia del año 2024 II.</p>
+                    <img src="imagen.png" alt="Estado Financiero Atención a la Primera Infancia Ciclo I" class="tab-image">
+                    <p> <i class="fas fa-download"></i> No se encuentra alojado el Ciclo I.</p>
+                    <p class="description">Estado financiero detallado para Atención a la Primera Infancia Ciclo I del año 2025 I.</p>
                 </a>
             </div>
             <div id="ciclo-ii" class="tab-content">
                 <a href="infancia.png" class="download-link">
-                   <img src="infancia.png" alt="Estado Financiero Atención a la Primera Infancia" class="tab-image">
-                   <p> <i class="fas fa-download"></i> Descargar Estado Financiero Atención a la Primera Infancia</p>
-                   <p class="description">Estado financiero detallado para el programa de Atención a la Primera Infancia del año 2024 II.</p>
+                   <img src="infancia.png" alt="Estado Financiero Atención a la Primera Infancia Ciclo II" class="tab-image">
+                   <p> <i class="fas fa-download"></i> Descargar Estado Financiero Atención a la Primera Infancia Ciclo II</p>
+                   <p class="description">Estado financiero ciclo II detallado para el programa de Atención a la Primera Infancia del año 2025 I.</p>
                 </a>
            </div>
            <div id="ciclo-iii" class="tab-content">
                 <a href="imagen.png" class="download-link">
-                   <img src="imagen.png" alt="Estado Financiero Atención a la Primera Infancia" class="tab-image">
-                   <p> <i class="fas fa-download"></i> Descargar Estado Financiero Atención a la Primera Infancia.</p>
+                   <img src="imagen.png" alt="Estado Financiero Atención a la Primera Infancia Ciclo III" class="tab-image">
+                   <p> <i class="fas fa-download"></i> Descargar Estado Financiero Atención a la Primera Infancia Ciclo III</p>
                     <p class="description">Su Estado financiero no está disponible aún.</p>
                 </a>
             </div>
+             <div id="Cronograma" class="tab-content">
+                <a href="Cronograma.png" class="download-link">
+                   <img src="Cronograma.png" alt="Cronograma Académico" class="tab-image">
+                   <p> <i class="fas fa-download"></i> Descargar Cronograma Académico 2025-I</p>
+                    <p class="description">Cronograma académico del año 2025-I.</p>
+                </a>
+             </div>
+            <div id="pensum-ciclo-i" class="tab-content">
+                <a href="imagen.png" class="download-link">
+              <img src="pensum-ciclo-i.png" alt="Pensum Atención a la Primera Infancia Ciclo I" class="tab-image">
+              <p> <i class="fas fa-download"></i> Visualizar Pensum Atención a la Primera Infancia Ciclo I.</p>
+                    <p class="description">Su Pensum no está disponible aún.</p>
+                </a>
+            </div>
+           <div id="pensum-ciclo-ii" class="tab-content">
+               <a href="Pensum Infancia.png" class="download-link">
+              <img src="pensum Infancia.png" alt="Pensum Atención a la Primera Infancia Ciclo II" class="tab-image">
+              <p> <i class="fas fa-download"></i> Visualizar Pensum Atención a la Primera Infancia II.</p>
+                    <p class="description">Su Pensum no está disponible aún.</p>
+            </a>
+            </div>
+          <div id="pensum-ciclo-iii" class="tab-content">
+              <a href="imagen.png" class="download-link">
+              <img src="pensum-ciclo-iii.png" alt="Pensum Atención a la Primera Infancia Ciclo III" class="tab-image">
+              <p> <i class="fas fa-download"></i> Visualizar Pensum Atención a la Primera Infancia Ciclo III.</p>
+                    <p class="description">Su Pensum no está disponible aún.</p>
+            </a>
+          </div>
         </div>
         <button class="toggle-menu">☰</button>
     </main>
